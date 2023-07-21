@@ -1,0 +1,13 @@
+//variables o constantes que quiero usar en todo el proyecto
+import { config } from "dotenv";
+config();
+
+const db = {
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  database: process.env.DB_DATABASE,
+};
+
+export { db };

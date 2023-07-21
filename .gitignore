@@ -1,0 +1,42 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore npm/Yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore .env files (containing environment variables)
+.env
+
+# Ignore compiled output (if you have a build step)
+/build
+/dist
+
+# Ignore coverage reports (if using a test coverage tool)
+/coverage
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other generated files
+*.swp
+*.swo
+*.log
+*.tmp
+*.pid
+
+# Ignore sensitive or private files
+secrets.txt
+private.key
+
+# Ignore user-specific configuration files
+/.npmrc
+/.yarnrc
